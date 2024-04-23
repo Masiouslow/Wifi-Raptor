@@ -1,10 +1,11 @@
 #!/bin/bash
+	essidtat=""
 # Ejecutar airgeddon con expect
 ejecutar_airgeddon() {
     expect << EOF
-
     proc filtrar_essid {} {
-        set output [exec sh -c {cat Output_Networks.txt | grep -m 1 "$essidta" | tail -n 3 | cut -d ')' -f 1 | sed 's/^ //' | tr -d '\\n'}]
+#	set essidtat $essidta
+        set output [exec sh -c {cat Output_Networks.txt | grep -m 1 "$essidta" | tail -n 3 | cut -d ')' -f 1 | sed 's/^ //' | tr -d '[:space:]'| sed 's/\x1B\[[0-9;]*[a-zA-Z]//g'}]
         return \$output
     }
 
@@ -57,8 +58,7 @@ ejecutar_airgeddon() {
 
 	# El AP existe?
 	expect "> "
-	sleep 3
-	send -- "[filtrar_essid]\r"
+	send -- "[filtrar_essid]"
 
 
 	# Salir de la herramienta
@@ -93,7 +93,7 @@ manejar_opcion() {
         1)
 	   essidta=$(whiptail --title "ESSID" --inputbox "Ingresa el ESSID de la red wifi a atacar:" 10 30 3>&1 1>&2 2>&3)
            valor2=$(whiptail --title "Opción 1" --inputbox "Ingresa otro valor para la Opción 2:" 10 30 3>&1 1>&2 2>&3)
-            ejecutar_airgeddon
+           ejecutar_airgeddon
             ;;
         2)
             valor=$(whiptail --title "Opción 2" --inputbox "Ingresa un valor para la Opción 2:" 10 30 3>&1 1>&2 2>&3)

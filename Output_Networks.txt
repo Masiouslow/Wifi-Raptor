@@ -1,8 +1,4 @@
-[1;35r[35;1H
-[A7
-[K[1;36r[35;1H[1;35r[1;1H[2;35r[34S[1;1H[K[1;36r[1;1H
-[32m[1mSelect the order in which to display the list of targets: 
-(B[m
+7
 [34m[1m--------- 
 (B[m 1) bssid       8) bssid (reverse) 
  2) channel     9) channel (reverse) 
@@ -16,96 +12,38 @@
 (B[m
 [32m[1m  N.         BSSID      CHANNEL  PWR   CLI   ENC    ESSID 
 (B[m[34m[1m------------------------------------------------------- 
-(B[m  1)   DE:3A:45:22:84:41   11    42%     0   WPA2   DIRECT-EZLAPTOP-M4RCmsRP
-  2)   00:B7:71:18:0D:82    6    23%     0   WPA2   eduroam
-  3)   00:B7:71:18:0D:8D   36    15%     0   WPA2   eduroam
-[33m[1m  4)*  00:B7:71:37:EB:AD  116    32%     1   WPA2   eduroam
-(B[m  5)   00:B7:71:37:EC:02   11    39%     0   WPA2   eduroam
-  6)   00:B7:71:37:EC:0D  132    46%     0   WPA2   eduroam
-  7)   00:B7:71:39:B3:82   11    33%     0   WPA2   eduroam
-[33m[1m  8)*  00:B7:71:39:B3:8D   64    33%     1   WPA2   eduroam
-(B[m  9)   00:B7:71:39:CD:A2    6    61%     0   WPA2   eduroam
- 10)   00:B7:71:39:CD:AD  116    77%     0   WPA2   eduroam
- 11)   38:90:A5:A7:DC:42   11    34%     0   WPA2   eduroam
- 12)   38:90:A5:A7:E0:0D  100    25%     0   WPA2   eduroam
- 13)   40:01:7A:D0:9B:02   11    33%     0   WPA2   eduroam
- 14)   40:01:7A:D0:9B:0D   64    24%     0   WPA2   eduroam
-[33m[1m 15)*  C6:4F:F3:1D:CA:99  149    53%     1   WPA2   FG7
-(B[m 16)   00:B7:71:18:0D:81    6    20%     0   WPA2   gencat_ENS_EDU
- 17)   00:B7:71:18:0D:8E   36    16%     0   WPA2   gencat_ENS_EDU
- 18)   00:B7:71:37:EB:AE  116    32%     0   WPA2   gencat_ENS_EDU
- 19)   00:B7:71:37:EC:01   11    42%     0   WPA2   gencat_ENS_EDU
-[33m[1m 20)*  00:B7:71:37:EC:0E  132    46%     6   WPA2   gencat_ENS_EDU
-(B[m 21)   00:B7:71:39:B3:81   11    33%     0   WPA2   gencat_ENS_EDU
-[33m[1m 22)*  00:B7:71:39:B3:8E   64    33%     1   WPA2   gencat_ENS_EDU
-(B[m 23)   00:B7:71:39:CD:A1    6    59%     0   WPA2   gencat_ENS_EDU
-[33m[1m 24)*  00:B7:71:39:CD:AE  116    76%     3   WPA2   gencat_ENS_EDU
-(B[m 25)   38:90:A5:92:C1:0E  132    28%     0   WPA2   gencat_ENS_EDU
-[33m[1m 26)*  38:90:A5:A7:DC:4E   52    32%     1   WPA2   gencat_ENS_EDU
-(B[m 27)   40:01:7A:D0:9B:01   11    32%     0   WPA2   gencat_ENS_EDU
- 28)   40:01:7A:D0:9B:0E   64    25%     0   WPA2   gencat_ENS_EDU
-[33m[1m 29)*  12:F6:0C:A6:6D:46    6    46%     1   WPA2   gerard
-(B[m[33m[1m 30)*  38:90:A5:A7:DC:41   11    35%     1   WPA    (Hidden Network)
+(B[m[33m[1m  1)*  6E:DD:BC:D7:D6:AE    1    50%     1   WPA2   Danivm_23
+(B[m  2)   DE:3A:45:22:84:41    6    42%     0   WPA2   DIRECT-EZLAPTOP-M4RCmsRP
+  3)   00:B7:71:37:EC:02    6    38%     0   WPA2   eduroam
+  4)   00:B7:71:39:B3:82   11    31%     0   WPA2   eduroam
+[33m[1m  5)*  00:B7:71:39:CD:A2    6    59%     1   WPA2   eduroam
+(B[m  6)   38:90:A5:92:C1:02   11    22%     0   WPA2   eduroam
+  7)   38:90:A5:A7:DC:42   11    32%     0   WPA2   eduroam
+  8)   40:01:7A:D0:9B:02   11    29%     0   WPA2   eduroam
+  9)   00:B7:71:37:EC:01    6    40%     0   WPA2   gencat_ENS_EDU
+[33m[1m 10)*  00:B7:71:39:B3:81   11    29%     1   WPA2   gencat_ENS_EDU
+(B[m 11)   00:B7:71:39:CD:A1    6    58%     0   WPA2   gencat_ENS_EDU
+ 12)   38:90:A5:92:C1:01   11    22%     0   WPA2   gencat_ENS_EDU
+ 13)   38:90:A5:A7:DC:41   11    38%     0   WPA2   gencat_ENS_EDU
+ 14)   40:01:7A:D0:9B:01   11    35%     0   WPA2   gencat_ENS_EDU
+ 15)   60:8D:26:FE:4F:12    3     0%     1          (Hidden Network)
+ 16)   F4:69:42:6B:06:BF    6     0%     1          (Hidden Network)
+ 17)   FC:40:09:C4:6D:BC    9     0%     1          (Hidden Network)
+ 18)   00:B7:71:37:EC:00    6    37%     0   WPA2   (Hidden Network)
+ 19)   00:B7:71:37:EC:03    6    42%     0   WPA2   (Hidden Network)
+ 20)   00:B7:71:39:B3:80   11    38%     0   WPA2   (Hidden Network)
+ 21)   00:B7:71:39:B3:83   11    30%     0   WPA2   (Hidden Network)
+ 22)   00:B7:71:39:CD:A0    6    58%     0   WPA2   (Hidden Network)
+ 23)   00:B7:71:39:CD:A3    6    58%     0   WPA2   (Hidden Network)
+ 24)   38:90:A5:92:C1:00   11    21%     0   WPA2   (Hidden Network)
+ 25)   38:90:A5:92:C1:03   11    21%     0   WPA2   (Hidden Network)
+ 26)   38:90:A5:A7:DC:40   11    30%     0   WPA2   (Hidden Network)
+ 27)   38:90:A5:A7:DC:43   11    34%     0   WPA2   (Hidden Network)
+ 28)   40:01:7A:D0:9B:00   11    29%     0   WPA2   (Hidden Network)
+ 29)   40:01:7A:D0:9B:03   11    28%     0   WPA2   (Hidden Network)
+[33m[1m 30)*  22:A2:10:12:02:7D    6    35%     1   WPA3   (Hidden Network)
 (B[m[1;35r[35;1H
-[A 31)   00:B7:71:18:0D:8C   36    15%     0   WPA2   (Hidden Network)
-[K[1;36r[35;1H[1;35r[35;1H
-[A 32)   00:B7:71:18:0D:8F   36    13%     0   WPA2   (Hidden Network)
-[K[1;36r[35;1H[1;35r[35;1H
-[A 33)   00:B7:71:37:EB:AC  116    31%     0   WPA2   (Hidden Network)
-[K[1;36r[35;1H[1;35r[35;1H
-[A 34)   00:B7:71:37:EB:AF  116    33%     0   WPA2   (Hidden Network)
-[K[1;36r[35;1H[1;35r[35;1H
-[A 35)   00:B7:71:37:EC:0C  132    46%     0   WPA2   (Hidden Network)
-[K[1;36r[35;1H[1;35r[35;1H
-[A 36)   00:B7:71:37:EC:0F  132    46%     0   WPA2   (Hidden Network)
-[K[1;36r[35;1H[1;35r[35;1H
-[A 37)   00:B7:71:39:B3:80   11    33%     0   WPA2   (Hidden Network)
-[K[1;36r[35;1H[1;35r[35;1H
-[A 38)   00:B7:71:39:B3:83   11    31%     0   WPA2   (Hidden Network)
-[K[1;36r[35;1H[1;35r[35;1H
-[A 39)   00:B7:71:39:B3:8C   64    36%     0   WPA2   (Hidden Network)
-[K[1;36r[35;1H[1;35r[35;1H
-[A 40)   00:B7:71:39:B3:8F   64    38%     0   WPA2   (Hidden Network)
-[K[1;36r[35;1H[1;35r[35;1H
-[A 41)   00:B7:71:39:CD:A0    6    61%     0   WPA2   (Hidden Network)
-[K[1;36r[35;1H[1;35r[35;1H
-[A 42)   00:B7:71:39:CD:A3    6    60%     0   WPA2   (Hidden Network)
-[K[1;36r[35;1H[1;35r[35;1H
-[A 43)   00:B7:71:39:CD:AC  116    77%     0   WPA2   (Hidden Network)
-[K[1;36r[35;1H[1;35r[35;1H
-[A 44)   00:B7:71:39:CD:AF  116    76%     0   WPA2   (Hidden Network)
-[K[1;36r[35;1H[1;35r[35;1H
-[A 45)   38:90:A5:92:C1:00   11    27%     0   WPA2   (Hidden Network)
-[K[1;36r[35;1H[1;35r[35;1H
-[A 46)   38:90:A5:92:C1:0C  132    31%     0   WPA2   (Hidden Network)
-[K[1;36r[35;1H[1;35r[35;1H
-[A 47)   38:90:A5:92:C1:0F  132    33%     0   WPA2   (Hidden Network)
-[K[1;36r[35;1H[1;35r[35;1H
-[A 48)   38:90:A5:A7:DC:40   11    35%     0   WPA2   (Hidden Network)
-[K[1;36r[35;1H[1;35r[35;1H
-[A 49)   38:90:A5:A7:DC:43   11    35%     0   WPA2   (Hidden Network)
-[K[1;36r[35;1H[1;35r[35;1H
-[A 50)   38:90:A5:A7:E0:0C  100    23%     0   WPA2   (Hidden Network)
-[K[1;36r[35;1H[1;35r[35;1H
-[A 51)   40:01:7A:97:08:0C  116    20%     0   WPA2   (Hidden Network)
-[K[1;36r[35;1H[1;35r[35;1H
-[A 52)   40:01:7A:D0:9B:00   11    29%     0   WPA2   (Hidden Network)
-[K[1;36r[35;1H[1;35r[35;1H
-[A 53)   40:01:7A:D0:9B:03   11    31%     0   WPA2   (Hidden Network)
-[K[1;36r[35;1H[1;35r[35;1H
-[A 54)   40:01:7A:D0:9B:0C   64    23%     0   WPA2   (Hidden Network)
-[K[1;36r[35;1H[1;35r[35;1H
-[A 55)   40:01:7A:D0:9B:0F   64    24%     0   WPA2   (Hidden Network)
-[K[1;36r[35;1H[1;35r[35;1H
-[A 56)   62:8D:26:FF:00:F7   64    54%     0   WPA2   (Hidden Network)
-[K[1;36r[35;1H[1;35r[35;1H
-[A[33m[1m 57)*  BE:90:03:D4:56:DB  149    23%     1   WPA3   iPhone de Aitor(B[m
-[K[1;36r[35;1H[1;35r[35;1H
-[A 58)   22:BE:9C:74:3E:87  149    32%     0   WPA3   KYL3312
-[K[1;36r[35;1H[1;35r[35;1H
-[A 59)   60:8D:26:FF:00:F6    6    51%     0   WPA2   Livebox6-00F7
-[K[1;36r[35;1H[1;35r[35;1H
-[A 60)   6A:DD:12:A3:E2:F2   64    12%     0   WPA2   MiFibra-E2EE
+[A 31)   60:8D:26:FF:00:F6    6    47%     0   WPA2   Livebox6-00F7
 [K[1;36r[35;1H[1;35r[35;1H
 [K[1;36r[35;1H[1;35r[35;1H
 [A[33m[1m(*) Network with clients (B[m

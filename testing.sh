@@ -1,12 +1,12 @@
 #!/bin/bash
 
-searchString="Homebema"
+searchString="Livebox6-00F7"
 
 expect << EOF
     # Definición de la función dentro de expect
     proc filtrar_essid {} {
-        set searchString "Homebema"
-        set output [exec sh -c {cat Output_Networks.txt | grep -m 1 "$searchString" | tail -n 3 | cut -d ')' -f 1 | sed 's/^ //' | tr -d '[:space:]'}]
+        set searchString " Livebox6-00F7"
+        set output [exec sh -c {cat Output_Networks.txt | grep -m 1 "$searchString" | tail -n 3 | cut -d ')' -f 1 | sed 's/^ //' | tr -d '[:space:]'| sed 's/\x1B\[[0-9;]*[a-zA-Z]//g'}]
         return \$output
     }
 
